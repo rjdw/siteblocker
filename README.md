@@ -1,4 +1,4 @@
-Awesome — here’s a hardened, **self-healing** website blocker for macOS Monterey (M1 Pro). It layers:
+a hardened, **self-healing** website blocker for macOS:
 
 * DNS denial (`/etc/hosts` + `/etc/resolver`)
 * **pf** firewall IP blocking (incl. common DNS-over-HTTPS endpoints)
@@ -499,6 +499,3 @@ Reboot (or just continue) — you’re back to normal.
 * Each file is owned by **root\:wheel** and **immutable** (`uchg`), so casual GUI or `nano` edits fail until you clear flags intentionally.
 
 ---
-
-If you want, tell me **additional sites** you’d like to include (TikTok/Twitter/Reddit/etc.), and I’ll drop in a tailored `domains.txt` for you.
-
